@@ -1,0 +1,21 @@
+{
+  "name": "blogs",
+  "version": "1.0.0",
+  "description": "个人学习记录",
+  "main": "index.js",
+  "repository": "git@github.com:tankboo/blogs.git",
+  "author": "tanbiao <leo.tan@ximalaya.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-loading-page": "^1.6.0",
+    "@vuepress/plugin-nprogress": "^2.0.0-beta.32",
+    "vuepress": "^1.9.5",
+    "vuepress-theme-reco": "^1.6.10"
+  }
+}

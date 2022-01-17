@@ -1,0 +1,11 @@
+#资源
+dist
+.temp
+.cache
+
+#依赖
+node_modules
+
+#yarn.lock
+package-lock.json
+src/.DS_Store

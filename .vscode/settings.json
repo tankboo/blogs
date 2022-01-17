@@ -1,0 +1,6 @@
+{
+  "cSpell.words": ["prettierrc", "ximalaya"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

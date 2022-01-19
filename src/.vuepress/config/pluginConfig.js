@@ -1,3 +1,20 @@
-module.exports = {
-  "@vuepress/plugin-nprogress": true
-}
+module.exports=[
+  ["@vuepress/nprogress"],
+  ['@vuepress/pwa',{
+    serviceWorker: true,
+    updatePopup: {
+      message: "发现新内容可用!",
+      buttonText: "刷新"
+    }
+  }],
+  ['dynamic-title',{
+    showIcon: "/favicon.ico",
+    showText: "(/≧▽≦/)咦！又好了！",
+    hideIcon: "/failure.ico",
+    hideText: "(●—●)喔哟，崩溃啦！",
+    recoverTime: 2000
+  }],
+  ['cursor-effects'],
+  // ['ribbon'],
+  // ['go-top']
+]

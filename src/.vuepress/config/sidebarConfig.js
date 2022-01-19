@@ -15,14 +15,13 @@ module.exports={
     },
     {
       title:'babel',
-      collapsable: true,
+      // collapsable: true,
       children:[
         'babel/'
       ]
     },
     {
       title: "V8引擎",
-      // collapsable: false,
       children: [
         'V8/',
         'V8/workProcess'

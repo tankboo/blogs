@@ -5,7 +5,7 @@ const headConfig = require('./config/headConfig')
 module.exports ={
   // 站点配置
   title: '学习记录',
-  // description: '日常学习, 总结, 便于以后查阅',
+  description: '日常学习, 总结, 便于以后查阅',
   head: headConfig,
   //本地化
   locales: {
@@ -20,6 +20,10 @@ module.exports ={
   //主题
   themeConfig,
   // 插件
-  plugins
+  plugins,
+
+  markdown:{
+    lineNumbers:true // 代码显示行号
+  }
 
 }

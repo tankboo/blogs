@@ -1,32 +1,16 @@
+const getDocPath = require('./getDocPath')
+
 module.exports={
   // '/docs/markdown/':[
   //   ''
   // ],
   '/docs/css/':[
-    ''
+    getDocPath('css', '/docs/css/')
   ],
   "/docs/javascript/":[
-    '',
-    {
-      title:'对象',
-      children:[
-        'object/'
-      ]
-    },
-    {
-      title:'babel',
-      // collapsable: true,
-      children:[
-        'babel/'
-      ]
-    },
-    {
-      title: "V8引擎",
-      children: [
-        'V8/',
-        'V8/workProcess'
-      ]
-    }
-    
-  ]
+    getDocPath('对象', '/docs/javascript/object/'),
+    getDocPath('babel', '/docs/javascript/babel/'),
+    getDocPath('V8引擎', '/docs/javascript/V8/'),
+    getDocPath('你不知道的JavaScript', '/docs/javascript/dykjs/')
+  ],
 }

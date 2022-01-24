@@ -1,7 +1,7 @@
 module.exports=[
   ["@vuepress/nprogress"],
   ['@vuepress/pwa',{
-    serviceWorker: true,
+    serviceWorker: false,
     updatePopup: {
       message: "发现新内容可用!",
       buttonText: "刷新"
@@ -12,9 +12,9 @@ module.exports=[
     showText: "(/≧▽≦/)咦！又好了！",
     hideIcon: "/failure.ico",
     hideText: "(●—●)喔哟，崩溃啦！",
-    recoverTime: 2000
+    recoverTime: 20000
   }],
-  ['cursor-effects'],
+  // ['cursor-effects'],
   // ['ribbon'],
   // ['go-top']
 ]
